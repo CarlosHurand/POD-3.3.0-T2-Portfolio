@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset = "utf-8" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name = "viewport"
+      content = "width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta property="og:title" content="Personal Portfolio" />
-    <meta property="og:description" content="My Personal Portfolio" />
-    <meta property="og:url" content="{{ url }}" />
+    <meta property = "og:title" content = "Personal Portfolio" />
+    <meta property = "og:description" content = "My Personal Portfolio" />
+    <meta property = "og:url" content = "{{ url }}" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
+      href = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel = "stylesheet"
     />
-    <link lang="sass" rel="stylesheet" href="./static/styles/main.css" />
+    <link lang = "sass" rel = "stylesheet" href = "./static/styles/main.css" />
     <title>{{ title }}</title>
   </head>
 
@@ -24,22 +24,22 @@
         It's Great to Meet You. <br />
         I am...
       </h1>
-      <div id="billboard">
-        <div class="indv-div">
-          <img src="./static/img/jc-avatar.png" />
-          <h2 class="name">Juan Carlos</h2>
+      <div id = "billboard">
+        <div class = "indv-div">
+          <img src = "./static/img/jc-avatar.png" />
+          <h2 class = "name">Juan Carlos</h2>
         </div>
       </div>
     </section>
     <!-- Card -->
     <section>
-      <a href="/juancarlos">
-        <div class="container reveal">
-          <div class="grid-container">
-            <div style="display: flex; justify-content: center">
+      <a href = "/juancarlos">
+        <div class = "container reveal">
+          <div class = "grid-container">
+            <div style = "display: flex; justify-content: center">
               <img
-                src="https://avatars.githubusercontent.com/u/49993080?s=400&u=d9d54bca441cc1af40e07d7fd4d18e11e76308c9&v=4"
-                class="avatar"
+                src = "https://avatars.githubusercontent.com/u/49993080?s=400&u=d9d54bca441cc1af40e07d7fd4d18e11e76308c9&v=4"
+                class = "avatar"
               />
             </div>
             <div class="bio">
@@ -54,8 +54,8 @@
       </a>
     </section>
     <script
-      type="text/javascript"
-      src="{{url_for('static', filename='index.js')}}"
+      type = "text/javascript"
+      src = "{{url_for('static', filename='index.js')}}"
     ></script>
   </body>
 </html>
