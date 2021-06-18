@@ -12,3 +12,7 @@ def index():
 @app.route('/juancarlos')
 def juancarlos():
     return render_template('juancarlos.html', name = "Juan Carlos")
+
+@app.route('/health')
+def health():
+    return 'It Works!', 200
