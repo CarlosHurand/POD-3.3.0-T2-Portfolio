@@ -1,9 +1,10 @@
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
+app.config['DATABASE'] = os.path.join(os.getcwd(), 'flask.sqlite')
 
 @app.route('/')
 def index():
