@@ -38,7 +38,7 @@ def register():
             return error, 418
 
     ## TODO: Return a restister page
-    return "Register Page not yet implemented", 501
+    return render_template("register.html")
 
 @app.route('/login', methods=('GET', 'POST'))
 def login():
@@ -62,7 +62,7 @@ def login():
             return error, 418
     
     ## TODO: Return a login page
-    return "Login Page not yet implemented", 501
+    return render_template("login.html")
 
 @app.route('/')
 def index():
