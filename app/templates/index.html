@@ -1,61 +1,53 @@
 <!DOCTYPE html>
-<html lang = "en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset = "utf-8" />
-    <meta
-      name = "viewport"
-      content = "width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta property = "og:title" content = "Personal Portfolio" />
-    <meta property = "og:description" content = "My Personal Portfolio" />
-    <meta property = "og:url" content = "{{ url }}" />
-    <link
-      href = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel = "stylesheet"
-    />
-    <link lang = "sass" rel = "stylesheet" href = "./static/styles/main.css" />
-    <title>{{ title }}</title>
-  </head>
+<html lang="en">
 
-  <body>
-    <section>
-      <h1>
-        It's Great to Meet You. <br />
-        I am...
-      </h1>
-      <div id = "billboard">
-        <div class = "indv-div">
-          <img src = "./static/img/jc-avatar.jpg" />
-          <h2 class = "name">Juan Carlos</h2>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta property="og:title" content="Personal Portfolio" />
+  <meta property="og:description" content="My Personal Portfolio" />
+  <meta property="og:url" content="{{ url }}" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link lang="sass" rel="stylesheet" href="./static/styles/main.css" />
+  <title>{{ title }}</title>
+</head>
+
+<body>
+  <section>
+    <h1>
+      Welcome! <br />
+      I am...
+    </h1>
+    <div id="billboard">
+      <div class="indv-div">
+        <img src="./static/img/jc-avatar.jpg" />
+        <h2 class="name">Juan Carlos</h2>
+      </div>
+    </div>
+  </section>
+  <!-- Card -->
+  <section>
+    <a href="/juancarlos">
+      <div class="container reveal">
+        <div class="grid-container">
+          <div style="display: flex; justify-content: center">
+            <img src="./static/img/jc.jpg" class="avatar" />
+          </div>
+          <div class="bio">
+            <p>
+              Software and hardware passionate looking for ways to help others
+              with the good use of these tools!
+            </p>
+          </div>
+          <div class="grid-item grid-name">Juan Carlos Hurtado</div>
         </div>
       </div>
-    </section>
-    <!-- Card -->
-    <section>
-      <a href = "/juancarlos">
-        <div class = "container reveal">
-          <div class = "grid-container">
-            <div style = "display: flex; justify-content: center">
-              <img
-                src = "./static/img/jc.jpg"
-                class = "avatar"
-              />
-            </div>
-            <div class = "bio">
-              <p>
-                Software and hardware passionate looking for ways to help others
-                with the good use of these tools!
-              </p>
-            </div>
-            <div class = "grid-item grid-name">Juan Carlos Hurtado</div>
-          </div>
-        </div>
-      </a>
-    </section>
-    <script
-      type = "text/javascript"
-      src = "{{url_for('static', filename='index.js')}}"
-    ></script>
-  </body>
+    </a>
+  </section>
+  <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+
 </html>
