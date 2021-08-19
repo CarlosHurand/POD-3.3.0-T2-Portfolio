@@ -2,10 +2,11 @@
 
 # Team Portfolio Page 
 
-Portfolio pages to showcase our work! Get to know the team through 
-our page. 
+A web page created while learning during MLH Production Engineering summer batch.
 
-Checkout 🎥 [video demo]()
+Started with a 1 week deadline and a team of 3 to make a web page using Flask to serve as a template for the rest of the program.
+
+The next 7 weeks consisted of individual work on the base page made in the first week to have it running on AWS using tools like Docker, Nginx, SSL Certs, cadvisor, sqlite3, Git/Github, GitHub Actions, etc...
 
 ## Installation
 
@@ -36,6 +37,12 @@ $ flask run
 ```
 
 ## Made with ❤️
--  *[Patrick O'Donnell](https://github.com/manlalaro1)* 
--  *[Juan Carlos Hurtado Andrade](https://github.com/CarlosHurand)* 
+- *[Juan Carlos Hurtado Andrade](https://github.com/CarlosHurand)*
+- *[Patrick O'Donnell](https://github.com/manlalaro1)*
 - *[Athena Leong](https://github.com/athenaleong)*
+
+## Made with ❤️ (This fork)
+- *[Juan Carlos Hurtado Andrade](https://github.com/CarlosHurand)*
+
+## Page running on AWS (Info inside the page still needs work).
+- *[Juan Carlos Portfolio](https://jc-hurand.duckdns.org/)*
